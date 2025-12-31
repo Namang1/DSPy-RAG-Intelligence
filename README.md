@@ -4,24 +4,24 @@
 
 A next-generation Retrieval-Augmented Generation (RAG) system built with **DSPy** and **Milvus**, designed to demonstrate the power of **Agency** and **Self-Optimization**.
 
-## 🚀 Why This is Different
+##  Why This is Different
 
 Most RAG systems are black boxes. This one is a **Glass Box**.
 
-1.  **🧠 "Transparent Brain" UI**:
+1.  ** "Transparent Brain" UI**:
     *   Watch the AI **think**, **retrieve**, and **critique** itself in real-time.
     *   See the raw Structured Output (TOON/BAML) and the internal Confidence Scores.
 
-2.  **🕵️ Self-Correcting (Critic Loop)**:
+2.  ** Self-Correcting (Critic Loop)**:
     *   Example: If the answer is "Python is a snake", the Critic Agent intervenes: *"Too literal. The user asks about coding."*
     *   The **Revision Agent** then fixes it *before* you see the result.
 
-3.  **👨‍🏫 Human-in-the-Loop Teaching**:
+3.  ** Human-in-the-Loop Teaching**:
     *   **You are the teacher.** If the AI makes a mistake, click **"Correct this answer"** in the UI.
     *   Your correction is saved as a "Golden Example" to `data/feedback.jsonl`.
     *   DSPy uses this data to **compile and optimize** its own prompts automatically.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 *   **Orchestration & Logic**: [DSPy](https://github.com/stanfordnlp/dspy) (Declarative Self-improving Python)
 *   **Vector Database**: [Milvus](https://milvus.io/) (via Docker)
@@ -29,7 +29,7 @@ Most RAG systems are black boxes. This one is a **Glass Box**.
 *   **LLMs**: OpenAI (GPT-4o) / Anthropic (Claude 3.5 Sonnet)
 *   **UI**: Streamlit (clean, interactive, and fast)
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### Prerequisites
 *   Python 3.9+
